@@ -1,0 +1,20 @@
+Abstract Factory is a super factory used to create sub factories.
+Created sub factories can instantiate objects as in the factory design pattern
+
+In here also we doesn't expose critical logic in the project to outer world as in the Factory Method
+
+In this example Vehicle (super class) interface is used to create the objects.
+But DieselTruck, DieselVan, PetrolCar and PetrolVan subclasses will change it according to the way they want
+
+VehicleAbstractFactoryGenerator is class responsible to create the factories needed
+for the VehicleAbstractFactory Demo class
+
+Steps for Factory Design Pattern Implementation
+
+1. Create Interface (Vehicle)
+2. Create Concrete classes (DieselTruck, DieselVan, PetrolCar and PetrolVan) from the interface
+3. Create Interface (VehicleAbstractFactory)
+4. Create Concrete Factory classes (VehicleDieselFactory, VehiclePetrolFactory)
+   from the interface VehicleAbstractFactory
+5. Create Factory generator class (VehicleAbstractFactoryGenerator) to create objects as requested by the client
+6. Implementation of the client request (VehicleAbstractFactoryDemo)
