@@ -1,0 +1,17 @@
+Factory Method is one of the most used design patterns in Java
+
+In here we doesn't expose critical logic in the project to outer world
+
+These logic can be access only through an interface or an abstract class
+
+In this example Vehicle (super class) interface is used to create the objects.
+But Car and Van subclasses will change it according to the way they want
+
+Vehicle Factory is class responsible to create the objects needed for the VehicleFactory Demo class
+
+Steps for Factory Design Pattern Implementation
+
+1. Create Interface (Vehicle)
+2. Create Concrete classes (Car, Van) from the interface
+3. Create Factory class (VehicleFactory) to create objects as requested by the client
+4. Implementation of the client request (VehicleFactoryDemo)
