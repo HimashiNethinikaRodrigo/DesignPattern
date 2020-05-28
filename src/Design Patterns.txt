@@ -11,7 +11,7 @@ There are 3 main types and they will be divided into sub types as follows.
 Gang Of Four (GoF) Design Patterns
 
 1. Creational Design Pattern
-    creational.singleton.Singleton Pattern
+    Singleton Pattern
     Factory Pattern
     Abstract Factory Pattern
     Prototype Pattern
